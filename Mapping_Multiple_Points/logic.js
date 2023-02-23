@@ -4,13 +4,6 @@ console.log("working");
 // Create the map object with a center and zoom level.
 let map = L.map('mapid').setView([34.0522, -118.2437], 14);
 
-// // Add a circle marker to Los Angles, California
-// L.circle([34.0522, -118.2437], {
-//     color: "black",
-//     fillColor: "yellow",
-//     radius: 300
-//  }).addTo(map); 
-
 L.circleMarker([34.0522, -118.2437],{
     radius: 300,
     color: "black",
